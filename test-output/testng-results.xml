@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="13" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-04T13:18:58 IST" name="Suite" finished-at="2020-10-04T13:18:58 IST" duration-ms="430">
+    <groups>
+      <group name="Smoke">
+        <method signature="Video_145.Demo()[pri:0, instance:TestNG.Video_145@23986957]" name="Demo" class="TestNG.Video_145"/>
+        <method signature="XML_file.SecondTest()[pri:0, instance:TestNG.XML_file@23f7d05d]" name="SecondTest" class="TestNG.XML_file"/>
+        <method signature="Car_loan.ApiLoginCarLoan()[pri:0, instance:TestNG.Car_loan@2f112965]" name="ApiLoginCarLoan" class="TestNG.Car_loan"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2020-10-04T13:18:58 IST" name="Test" finished-at="2020-10-04T13:18:58 IST" duration-ms="127">
+      <class name="TestNG.XML_file">
+        <test-method signature="Demo1(java.lang.String)[pri:0, instance:TestNG.XML_file@23f7d05d]" started-at="2020-10-04T13:18:58 IST" name="Demo1" finished-at="2020-10-04T13:18:58 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method signature="example(java.lang.String)[pri:0, instance:TestNG.XML_file@23f7d05d]" started-at="2020-10-04T13:18:58 IST" name="example" finished-at="2020-10-04T13:18:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- example -->
+        <test-method signature="SecondTest()[pri:0, instance:TestNG.XML_file@23f7d05d]" started-at="2020-10-04T13:18:58 IST" name="SecondTest" finished-at="2020-10-04T13:18:58 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method signature="Begin()[pri:0, instance:TestNG.XML_file@23f7d05d]" started-at="2020-10-04T13:18:58 IST" name="Begin" finished-at="2020-10-04T13:18:58 IST" depends-on-methods="TestNG.XML_file.Demo1, TestNG.XML_file.example" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Begin -->
+      </class> <!-- TestNG.XML_file -->
+      <class name="TestNG.Video_145">
+        <test-method is-config="true" signature="prerequisites()[pri:0, instance:TestNG.Video_145@23986957]" started-at="2020-10-04T13:18:58 IST" name="prerequisites" finished-at="2020-10-04T13:18:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisites -->
+        <test-method signature="Demo()[pri:0, instance:TestNG.Video_145@23986957]" started-at="2020-10-04T13:18:58 IST" name="Demo" finished-at="2020-10-04T13:18:58 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondTest()[pri:0, instance:TestNG.Video_145@23986957]" started-at="2020-10-04T13:18:58 IST" name="SecondTest" finished-at="2020-10-04T13:18:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- TestNG.Video_145 -->
+    </test> <!-- Test -->
+    <test started-at="2020-10-04T13:18:58 IST" name="Car Loan" finished-at="2020-10-04T13:18:58 IST" duration-ms="29">
+      <class name="TestNG.Car_loan">
+        <test-method is-config="true" signature="BCclass()[pri:0, instance:TestNG.Car_loan@2f112965]" started-at="2020-10-04T13:18:58 IST" name="BCclass" finished-at="2020-10-04T13:18:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BCclass -->
+        <test-method is-config="true" signature="BfMethod()[pri:0, instance:TestNG.Car_loan@2f112965]" started-at="2020-10-04T13:18:58 IST" name="BfMethod" finished-at="2020-10-04T13:18:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfMethod -->
+        <test-method signature="ApiLoginCarLoan()[pri:0, instance:TestNG.Car_loan@2f112965]" started-at="2020-10-04T13:18:58 IST" name="ApiLoginCarLoan" finished-at="2020-10-04T13:18:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiLoginCarLoan -->
+        <test-method is-config="true" signature="AfMethod()[pri:0, instance:TestNG.Car_loan@2f112965]" started-at="2020-10-04T13:18:58 IST" name="AfMethod" finished-at="2020-10-04T13:18:58 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfMethod -->
+        <test-method is-config="true" signature="BfMethod()[pri:0, instance:TestNG.Car_loan@2f112965]" started-at="2020-10-04T13:18:58 IST" name="BfMethod" finished-at="2020-10-04T13:18:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfMethod -->
+        <test-method signature="WebLoginCarLoan()[pri:0, instance:TestNG.Car_loan@2f112965]" started-at="2020-10-04T13:18:58 IST" name="WebLoginCarLoan" finished-at="2020-10-04T13:18:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method is-config="true" signature="AfMethod()[pri:0, instance:TestNG.Car_loan@2f112965]" started-at="2020-10-04T13:18:58 IST" name="AfMethod" finished-at="2020-10-04T13:18:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfMethod -->
+        <test-method is-config="true" signature="AFclass()[pri:0, instance:TestNG.Car_loan@2f112965]" started-at="2020-10-04T13:18:58 IST" name="AFclass" finished-at="2020-10-04T13:18:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AFclass -->
+      </class> <!-- TestNG.Car_loan -->
+    </test> <!-- Car Loan -->
+    <test started-at="2020-10-04T13:18:58 IST" name="Home Loan" finished-at="2020-10-04T13:18:58 IST" duration-ms="8">
+      <class name="TestNG.Home_loan">
+        <test-method is-config="true" signature="BfSuite()[pri:0, instance:TestNG.Home_loan@78aab498]" started-at="2020-10-04T13:18:58 IST" name="BfSuite" finished-at="2020-10-04T13:18:58 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfSuite -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:TestNG.Home_loan@78aab498]" started-at="2020-10-04T13:18:58 IST" name="MobileLoginHomeLoan" finished-at="2020-10-04T13:18:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method is-config="true" signature="AFsuite()[pri:0, instance:TestNG.Home_loan@78aab498]" started-at="2020-10-04T13:18:58 IST" name="AFsuite" finished-at="2020-10-04T13:18:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AFsuite -->
+      </class> <!-- TestNG.Home_loan -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Suite -->
+</testng-results>
